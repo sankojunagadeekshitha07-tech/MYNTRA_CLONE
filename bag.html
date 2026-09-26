@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Bag</title>
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bag.css">
+
+</head>
+
+<body>
+
+    <!-- Bag navbar -->
+    <header class="bag-navbar">
+
+        <div class="bag-logo">
+
+            <img
+                src="https://livewire.thewire.in/wp-content/uploads/2021/02/myntra.png"
+                alt="Myntra"
+            >
+
+        </div>
+
+
+        <!-- Bag steps -->
+        <div class="bag-steps">
+
+            <span class="active">BAG</span>
+
+            <span>────────</span>
+
+            <span>ADDRESS</span>
+
+            <span>────────</span>
+
+            <span>PAYMENT</span>
+
+        </div>
+
+
+        <!-- Secure payment -->
+        <div class="secure">
+
+            🔒 100% SECURE
+
+        </div>
+
+    </header>
+
+
+    <!-- Bag page -->
+    <div class="bag-page">
+
+        <!-- Left section -->
+        <div class="bag-left">
+
+
+            <!-- Pincode section -->
+            <div class="pincode">
+
+                <div>
+
+                    <h3>
+                        Check delivery time & services
+                    </h3>
+
+                </div>
+
+
+                <div class="pincode">
+
+                    <h3>CHECK DELIVERY</h3>
+
+                    <div class="pincode-box">
+
+                        <input
+                            type="text"
+                            id="pincodeInput"
+                            placeholder="Enter pincode"
+                        >
+
+                        <button id="checkPincode">
+                            CHECK
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bag products -->
+            <div id="bag-product-container"></div>
+
+
+            <!-- Login box -->
+            <div class="login-box">
+
+                <div class="login-images">
+
+                    <div></div>
+
+                    <div></div>
+
+                    <div></div>
+
+                </div>
+
+
+                <h3>
+                    Login to see items from your existing bag
+                    and wishlist.
+                </h3>
+
+
+                <button>
+                    LOGIN NOW
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Right section -->
+        <div class="bag-right">
+
+
+            <!-- Coupon section -->
+            <div class="coupon">
+
+                <div class="coupon-heading">
+
+                    <span>◇</span>
+
+                    <h3>Apply Coupons</h3>
+
+                    <button>APPLY</button>
+
+                </div>
+
+
+                <p>
+
+                    <span>Login</span>
+                    to get upto ₹300 OFF on first order
+
+                </p>
+
+            </div>
+
+
+            <!-- Donation section -->
+            <div class="donation">
+
+                <h4>
+                    SUPPORT TRANSFORMATIVE SOCIAL WORK IN INDIA
+                </h4>
+
+
+                <label>
+
+                    <input type="checkbox">
+
+                    Donate and make a difference
+
+                </label>
+
+
+                <div class="donation-buttons">
+
+                    <button>₹10</button>
+
+                    <button>₹20</button>
+
+                    <button>₹50</button>
+
+                    <button>₹100</button>
+
+                </div>
+
+
+                <p>Know More</p>
+
+            </div>
+
+
+            <!-- Price details -->
+            <div class="price-details">
+
+                <h3>
+                    PRICE DETAILS (1 Item)
+                </h3>
+
+
+                <div>
+
+                    <p>Total MRP</p>
+
+                    <span id="total-mrp">
+                        ₹0
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <p>Discount on MRP</p>
+
+                    <span class="discount">
+                        - ₹0
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <p>Coupon Discount</p>
+
+                    <span class="pink">
+                        Apply Coupon
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <p>Platform Fee</p>
+
+                    <span>
+                        ₹23
+                    </span>
+
+                </div>
+
+
+                <hr>
+
+
+                <!-- Total amount -->
+                <div class="total">
+
+                    <h3>Total Amount</h3>
+
+                    <h3 id="total-amount">
+                        ₹0
+                    </h3>
+
+                </div>
+
+
+                <!-- Terms -->
+                <p class="terms">
+
+                    By placing the order, you agree to Myntra's
+
+                    <span>Terms of Use</span>
+
+                    and
+
+                    <span>Privacy Policy</span>
+
+                </p>
+
+
+                <!-- Place order -->
+                <button class="place-order">
+                    PLACE ORDER
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript file -->
+    <script src="bag.js"></script>
+
+</body>
+
+</html>

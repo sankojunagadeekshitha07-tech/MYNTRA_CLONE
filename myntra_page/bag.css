@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: #282c3f;
+}
+
+
+.bag-navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    border-bottom: 1px solid #e5e5e5;
+    background: white;
+}
+
+.bag-logo img {
+    width: 55px;
+}
+
+.bag-steps {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #696b79;
+}
+
+.bag-steps .active {
+    color: #ff3f6c;
+    font-weight: bold;
+}
+
+.secure {
+    color: #03a685;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.bag-page {
+    display: flex;
+    gap: 25px;
+    padding: 30px;
+}
+
+.bag-left {
+    width: 63%;
+}
+
+.bag-right {
+    width: 37%;
+}
+
+
+.pincode {
+    border: 1px solid #e5e5e5;
+    background: #fff8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.pincode h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.pincode-box {
+    display: flex;
+}
+
+.pincode-box input {
+    width: 150px;
+    height: 42px;
+    border: 1px solid #ff3f6c;
+    padding: 10px;
+    outline: none;
+}
+
+.pincode-box button {
+    height: 42px;
+    background: white;
+    border: 1px solid #ff3f6c;
+    color: #ff3f6c;
+    font-weight: bold;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+
+#bag-product-container {
+    margin-top: 20px;
+}
+
+.bag-product {
+    border: 1px solid #e5e5e5;
+    padding: 15px;
+    display: flex;
+    gap: 18px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.bag-product-image {
+    width: 140px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.bag-product-info {
+    flex: 1;
+}
+
+.bag-product-info h3 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.bag-product-info p {
+    margin: 8px 0;
+    color: #141414;
+}
+
+.bag-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #121212;
+}
+
+.bag-size {
+    display: inline-block;
+    background: #f5f5f6;
+    padding: 8px 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.remove-product {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+
+.login-box {
+    border: 1px solid #e5e5e5;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-box h3 {
+    flex: 1;
+    font-size: 15px;
+}
+
+.login-box button {
+    background: white;
+    border: none;
+    color: #ff3f6c;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-images {
+    display: flex;
+}
+
+.login-images div {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #ddd;
+    margin-right: -10px;
+    border: 2px solid white;
+}
+
+
+.coupon {
+    border-bottom: 1px solid #eeeeee;
+    padding: 15px 0 25px;
+}
+
+.coupon-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.coupon-heading h3 {
+    flex: 1;
+}
+
+.coupon-heading button {
+    background: white;
+    border: 1px solid #ff3f6c;
+    color: #ff3f6c;
+    padding: 8px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.coupon p {
+    color: #282c3f;
+}
+
+.coupon p span {
+    color: #ff3f6c;
+    font-weight: bold;
+}
+
+
+.donation {
+    border-bottom: 1px solid #eeeeee;
+    padding: 20px 0;
+}
+
+.donation h4 {
+    font-size: 14px;
+}
+
+.donation label {
+    display: block;
+    margin: 25px 0;
+    font-weight: bold;
+}
+
+.donation label input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.donation-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.donation-buttons button {
+    border: 1px solid #d4d5d9;
+    background: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.donation > p {
+    color: #ff3f6c;
+    font-weight: bold;
+}
+
+
+
+.price-details {
+    padding-top: 25px;
+}
+
+.price-details > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-details p {
+    font-size: 14px;
+}
+
+.price-details .discount {
+    color: #03a685;
+}
+
+.price-details .pink {
+    color: #ff3f6c;
+}
+
+.price-details hr {
+    border: none;
+    border-top: 1px solid #eeeeee;
+}
+
+.total {
+    margin-top: 20px;
+}
+
+.terms {
+    line-height: 1.5;
+    color: #696b79;
+}
+
+.terms span {
+    color: #ff3f6c;
+}
+
+.place-order {
+    width: 100%;
+    height: 50px;
+    background: #ff3f6c;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.place-order:hover {
+    background: #e73360;
+}

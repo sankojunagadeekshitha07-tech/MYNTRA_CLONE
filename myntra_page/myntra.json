@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "brand": "DressBerry",
+    "name": "Women Casual Top",
+    "price": 999,
+    "category": "Women Casual Wear",
+    "rating": 4.4,
+    "image": "casual wear.jpg"
+  },
+  {
+    "id": 2,
+    "brand": "Roadster",
+    "name": "Men Casual Shirt",
+    "price": 1199,
+    "category": "Men Casual Wear",
+    "rating": 4.3,
+    "image": "casual wear_m.jpg"
+  },
+  {
+    "id": 3,
+    "brand": "Louis Philippe",
+    "name": "Slim Fit Formal Shirt",
+    "price": 1899,
+    "category": "Men Formal Wear",
+    "rating": 4.6,
+    "image": "formal wear_m.jpg"
+  },
+  {
+    "id": 4,
+    "brand": "Berrylush",
+    "name": "Floral Party Dress",
+    "price": 2299,
+    "category": "Women Party Wear",
+    "rating": 4.5,
+    "image": "women_tw.jpg"
+  },
+  {
+    "id": 5,
+    "brand": "Nike",
+    "name": "Air Running Shoes",
+    "price": 3999,
+    "category": "Men's Shoes",
+    "rating": 4.7,
+    "image": "shoes_men.webp"
+  },
+  {
+    "id": 6,
+    "brand": "Puma",
+    "name": "Women's Sports Shoes",
+    "price": 3499,
+    "category": "Women's Shoes",
+    "rating": 4.5,
+    "image": "shoes_women.webp"
+  },
+  {
+    "id": 7,
+    "brand": "Titan",
+    "name": "Analog Watch",
+    "price": 2499,
+    "category": "Watches",
+    "rating": 4.8,
+    "image": "watches.jpg"
+  },
+  {
+    "id": 8,
+    "brand": "Metro",
+    "name": "Women's Block Heel Sandals",
+    "price": 1799,
+    "category": "Sandals",
+    "rating": 4.4,
+    "image": "sandals_women.jpg"
+  },
+  {
+    "id": 9,
+    "brand": "Lavie",
+    "name": "Hand Bags",
+    "price": 1599,
+    "category": "Hand bags",
+    "rating": 4.5,
+    "image": "bags.jpg"
+  },
+  {
+    "id": 10,
+    "brand": "Wildcraft",
+    "name": "College Backpack",
+    "price": 1499,
+    "category": "College bags",
+    "rating": 4.6,
+    "image": "college_bag.webp"
+  },
+  {
+    "id": 11,
+    "brand": "YK",
+    "name": "Kids Printed T-Shirt",
+    "price": 799,
+    "category": "Kids Wear",
+    "rating": 4.4,
+    "image": "kids.webp"
+  },
+  {
+    "id": 12,
+    "brand": "Pipa Bella",
+    "name": "Gold Plated Necklace Set",
+    "price": 1299,
+    "category": "Jewellery",
+    "rating": 4.3,
+    "image": "jewelery.webp"
+  },
+  {
+    "id": 13,
+    "brand": "Lakme",
+    "name": "Matte Lipstick",
+    "price": 599,
+    "category": "Makeup",
+    "rating": 4.6,
+    "image": "makeup.webp"
+  },
+  {
+    "id": 14,
+    "brand": "Minimalist",
+    "name": "Vitamin B5 Moisturizer",
+    "price": 499,
+    "category": "Skin Care",
+    "rating": 4.7,
+    "image": "skin_care.jpeg"
+  }
+]
